@@ -38,7 +38,6 @@ function listMission(name) {
     let newMission = document.createElement('li');
     newMission.textContent = name + " ";
 
-    // Complete button
     let done = document.createElement('button');
     done.textContent = "Complete";
 
@@ -60,7 +59,6 @@ function listMission(name) {
 
     newMission.appendChild(done);
 
-    // Delete button
     let del = document.createElement('button');
     del.textContent = "Delete";
 
